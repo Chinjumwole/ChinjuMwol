@@ -535,7 +535,7 @@ Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}
             );
             return await heroku.patch(baseURI + '/config-vars', {
                 body: {
-                    ['LANGUAGE']: 'en'
+                    ['LANGUAGE']: 'ml'
                 }
             });
         }
