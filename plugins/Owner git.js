@@ -19,15 +19,17 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Creater Ajnas*
-*Bgm updation💘*
+*I LOVE YOU 🥰*
 
-*Owner number wa.me/917736703116*
-
+*Owner number wa.me/917736936605*
 *githublink       https://github.com/Ajnas-dz/ChinjuMwol*
 
-
-
-
-`}) 
+`})
 
 }));
+
+
+
+
+
+
