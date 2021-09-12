@@ -25,9 +25,9 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 *githublink       https://github.com/Ajnas-dz/ChinjuMwol*
 
-*audio commads    https://github.com/Ajnas-dz/ChinjuMwol/tree/master/uploads*
 
-*sticker commads  https://github.com/Ajnas-dz/ChinjuMwol/tree/master/stickers*
+
+
 `}) 
 
 }));
