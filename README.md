@@ -47,7 +47,7 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/J-I-H-A-D/ElsaMwol
+$ git clone https://github.com/Ajnas-dz/ElsaMwol
 $ cd ElsaMwol
 $ chmod +x *
 $ npm install @adiwajshing/baileys
@@ -58,7 +58,7 @@ $ node qr.js
 ```js
 SETUP
 
-$ git clone https://github.com/J-I-H-A-D/ElsaMwol
+$ git clone https://github.com/Ajnas-dz/ElsaMwol
 $ cd ElsaMwol
 $ chmod +x *
 $ npm i
@@ -78,6 +78,6 @@ By establishing the Userbot, you are deemed to have accepted these responsibilit
 
 
 
-Project created by JIHAD to make it public
+Project created by AJNAS to make it public
 
 © Reserved
