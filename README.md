@@ -4,7 +4,7 @@
   <p align="center">
     
 <a href="#"><img title="Chinju Mwol"
- src="https://img.shields.io/badge/-Elsa%20Mowl-blue?&style=for-the-badge"></a>
+ src="https://img.shields.io/badge/-ChinjuMwol-blue?&style=for-the-badge"></a>
  </p>
   <p align="center">
 <a href="https://wa.me/917736936605"><img title="Author" src="https://img.shields.io/badge/Author-AJNAS-Ser/ChinjuMwol?color=Blue&style=for-the-badge&logo=whatsapp"></a>
