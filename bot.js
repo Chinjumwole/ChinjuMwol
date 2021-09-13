@@ -107,7 +107,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         );
 
         console.log(
-            chalk.blueBright.italic('🤸 Installing external plugins...')
+            chalk.blueBright.italic('😘 Installing external plugins...')
         );
 
         var plugins = await plugindb.PluginDB.findAll();
@@ -123,7 +123,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('🤸  Installing plugins...')
+            chalk.blueBright.italic('🤩  Installing plugins...')
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -133,7 +133,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('ElsaMwol working! 🕺')
+            chalk.blue.bold('ChinjuMwol working! 🧚‍♂️')
         );
     });
     
@@ -250,7 +250,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [ElsaMwol V2] --' + 
+                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [Chinju Mwol] --' + 
                                     '\n*WhatsAsena bir hata gerçekleşti!*'+
                                     '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
                                     '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
@@ -258,7 +258,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '💝______```ElsaMwol V2```_____💝' +
+                                await conn.sendMessage(conn.user.jid, '💖______```CJINJUMWOL```_____💖' +
                                     '\n\n*🙍 ' + error + '*\n'
                                     , MessageType.text);
                             }
