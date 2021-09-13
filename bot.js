@@ -259,7 +259,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     , MessageType.text);
                             } else {
                                 await conn.sendMessage(conn.user.jid, '💖______```CJINJUMWOL```_____💖' +
-                                    '\n\n*🙍 ' + error + '*\n'
+                                    '\n\n*😑 ' + error + '*\n'
                                     , MessageType.text);
                             }
                         }
