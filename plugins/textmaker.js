@@ -163,3 +163,343 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
         command_cmd + '```.glitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '.glitch Julie;*'
     await message.client.sendMessage(message.jid,msg, MessageType.text, { quoted: message.data })
 }));
+Asena.addCommand({pattern: 'devil ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+
+    thiccysapi.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html",
+
+        `${match[1]}`
+
+        ).then(async (data) => { 
+
+          try { 
+
+              var download = async(uri, filename, callback) => {
+
+                  await request.head(uri, async(err, res, body) => {    
+
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+
+                  });
+
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/devil.jpg', async() => {                          
+
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/devil.jpg'), MessageType.image, { caption: Config.AFN })
+
+              })
+
+          } catch(err) { 
+
+              console.log(err)
+
+          } 
+
+    });
+
+}));
+
+Asena.addCommand({pattern: 'bear ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+
+    thiccysapi.textpro("https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html",
+
+        `${match[1]}`
+
+        ).then(async (data) => { 
+
+          try { 
+
+              var download = async(uri, filename, callback) => {
+
+                  await request.head(uri, async(err, res, body) => {    
+
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+
+                  });
+
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/bear.jpg', async() => {                          
+
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/bear.jpg'), MessageType.image, { caption: Config.AFN })
+
+              })
+
+          } catch(err) { 
+
+              console.log(err)
+
+          } 
+
+    });
+
+}));
+
+Asena.addCommand({pattern: 'wolf ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+
+    var topText, bottomText; 
+
+    if (match[1].includes(';')) {
+
+        var split = match[1].split(';');
+
+        topText = split[0];
+
+        bottomText = split[1];
+
+    } else {
+
+        topText = match[1];
+
+        bottomText = '';
+
+    }
+
+    thiccysapi.textpro("https://textpro.me/create-wolf-logo-galaxy-online-936.html",
+
+        [`${topText}`, `${bottomText}`]
+
+        ).then(async (data) => { 
+
+          try { 
+
+              var download = async(uri, filename, callback) => {
+
+                  await request.head(uri, async(err, res, body) => {    
+
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+
+                  });
+
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/wolf.jpg', async() => {                          
+
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/wolf.jpg'), MessageType.image, { caption: Config.AFN })
+
+              })
+
+          } catch(err) { 
+
+              console.log(err)
+
+          } 
+
+    });
+
+}));
+
+Asena.addCommand({pattern: 'neon ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+
+    thiccysapi.textpro("https://textpro.me/create-a-futuristic-technology-neon-light-text-effect-1006.html",
+
+        `${match[1]}`
+
+        ).then(async (data) => { 
+
+          try { 
+
+              var download = async(uri, filename, callback) => {
+
+                  await request.head(uri, async(err, res, body) => {    
+
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+
+                  });
+
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/neon.jpg', async() => {                          
+
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/neon.jpg'), MessageType.image, { caption: Config.AFN })
+
+              })
+
+          } catch(err) { 
+
+              console.log(err)
+
+          } 
+
+    });
+
+}));
+Asena.addCommand({pattern: '2neon ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+    thiccysapi.textpro("https://textpro.me/neon-text-effect-online-879.html",
+        `${match[1]}`
+        ).then(async (data) => { 
+          try { 
+              var download = async(uri, filename, callback) => {
+                  await request.head(uri, async(err, res, body) => {    
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+                  });
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/neon2.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/neon2.jpg'), MessageType.image, { caption: Config.AFN })
+              })
+          } catch(err) { 
+              console.log(err)
+          } 
+    });
+}));
+Asena.addCommand({pattern: 'light ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+    thiccysapi.textpro("https://textpro.me/thunder-text-effect-online-881.html",
+        `${match[1]}`
+        ).then(async (data) => { 
+          try { 
+              var download = async(uri, filename, callback) => {
+                  await request.head(uri, async(err, res, body) => {    
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+                  });
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/li.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/li.jpg'), MessageType.image, { caption: Config.AFN })
+              })
+          } catch(err) { 
+              console.log(err)
+          } 
+    });
+}));
+Asena.addCommand({pattern: 'joker ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+    thiccysapi.textpro("https://textpro.me/create-logo-joker-online-934.html",
+        `${match[1]}`
+        ).then(async (data) => { 
+          try { 
+              var download = async(uri, filename, callback) => {
+                  await request.head(uri, async(err, res, body) => {    
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+                  });
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/joker.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/joker.jpg'), MessageType.image, { caption: Config.AFN })
+              })
+          } catch(err) { 
+              console.log(err)
+          } 
+    });
+}));
+Asena.addCommand({pattern: 'ninja ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+    var topText, bottomText; 
+    if (match[1].includes(';')) {
+        var split = match[1].split(';');
+        topText = split[0];
+        bottomText = split[1];
+    } else {
+        topText = match[1];
+        bottomText = '';
+    }
+    thiccysapi.textpro("https://textpro.me/create-ninja-logo-online-935.html",
+        [`${topText}`, `${bottomText}`]
+        ).then(async (data) => { 
+          try { 
+              var download = async(uri, filename, callback) => {
+                  await request.head(uri, async(err, res, body) => {    
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+                  });
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/ninja.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/ninja.jpg'), MessageType.image, { caption: Config.AFN })
+              })
+          } catch(err) { 
+              console.log(err)
+          } 
+    });
+}));
+Asena.addCommand({pattern: 'glitter ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+    thiccysapi.textpro("https://textpro.me/advanced-glow-text-effect-873.html",
+        `${match[1]}`
+        ).then(async (data) => { 
+          try { 
+              var download = async(uri, filename, callback) => {
+                  await request.head(uri, async(err, res, body) => {    
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+                  });
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/tt.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/tt.jpg'), MessageType.image, { caption: Config.AFN })
+              })
+          } catch(err) { 
+              console.log(err)
+          } 
+    });
+}));
+Asena.addCommand({pattern: 'bokeh ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+    thiccysapi.textpro("https://textpro.me/bokeh-text-effect-876.html",
+        `${match[1]}`
+        ).then(async (data) => { 
+          try { 
+              var download = async(uri, filename, callback) => {
+                  await request.head(uri, async(err, res, body) => {    
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+                  });
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/bkh.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/bkh.jpg'), MessageType.image, { caption: Config.AFN })
+              })
+          } catch(err) { 
+              console.log(err)
+          } 
+    });
+}));
+Asena.addCommand({pattern: 'marvel ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+    var topText, bottomText; 
+    if (match[1].includes(';')) {
+        var split = match[1].split(';');
+        topText = split[0];
+        bottomText = split[1];
+    } else {
+        topText = match[1];
+        bottomText = 'ㅤ';
+    }
+    thiccysapi.textpro("https://textpro.me/create-logo-style-marvel-studios-online-971.html",
+        [`${topText}`, `${bottomText}`]
+        ).then(async (data) => { 
+          try { 
+              var download = async(uri, filename, callback) => {
+                  await request.head(uri, async(err, res, body) => {    
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+                  });
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/marvel.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/marvel.jpg'), MessageType.image, { caption: Config.AFN })
+              })
+          } catch(err) { 
+              console.log(err)
+          } 
+    });
+}));
+Asena.addCommand({pattern: '2marvel ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
+    var topText, bottomText; 
+    if (match[1].includes(';')) {
+        var split = match[1].split(';');
+        topText = split[0];
+        bottomText = split[1];
+    } else {
+        topText = match[1];
+        bottomText = 'ㅤ';
+    }
+    thiccysapi.textpro("https://textpro.me/create-3d-avengers-logo-online-974.html",
+        [`${topText}`, `${bottomText}`]
+        ).then(async (data) => { 
+          try { 
+              var download = async(uri, filename, callback) => {
+                  await request.head(uri, async(err, res, body) => {    
+                      await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+                  });
+              };
+
+              await download(`${data}`, '/root/WhatsAsenaDuplicated/mar2.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/mar2.jpg'), MessageType.image, { caption: Config.AFN })
+              })
+          } catch(err) { 
+              console.log(err)
+          } 
+    });
+}));
