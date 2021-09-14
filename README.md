@@ -47,8 +47,8 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/Ajnas-dz/ElsaMwol
-$ cd ElsaMwol
+$ git clone https://github.com/Ajnas-dz/ChinjuMwol
+$ cd ChinjuMwol
 $ chmod +x *
 $ npm install @adiwajshing/baileys
 $ npm install chalk
@@ -58,8 +58,8 @@ $ node qr.js
 ```js
 SETUP
 
-$ git clone https://github.com/Ajnas-dz/ElsaMwol
-$ cd ElsaMwol
+$ git clone https://github.com/Ajnas-dz/ChinjuMwol
+$ cd ChinjuMwol
 $ chmod +x *
 $ npm i
 $ node qr.js
