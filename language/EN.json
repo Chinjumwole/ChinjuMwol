@@ -75,8 +75,8 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart Chinju Mwol🧚‍♂️",
-            "RESTART_MSG": "```Restarting...```",
+            "RESTART_DESC": "Restart ",
+            "RESTART_MSG": "```ChinjuMwol Restarting...```",
             "SHUTDOWN_DESC": "Shutdown Chinju Mwol",
             "SHUTDOWN_MSG": "```Shutting down 😖```",
             "DYNO_DESC": "Check heroku dyno usage",
@@ -224,10 +224,10 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*ChinjuMwol ❤ completely up-to-date!*",
+            "UPDATE": "*ChinjuMwol 🧚‍♂️ completely up-to-date!*",
             "NEW_UPDATE": "*New update available for ChinjuMwol 💞!*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "Updating...😍",
+            "UPDATING": "Updating...🧞‍♂️",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
             "UPDATED": "*🤩 Updated!*",
             "UPDATED_LOCAL": "*🤩 Updated!*",
