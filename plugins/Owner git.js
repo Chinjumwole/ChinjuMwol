@@ -22,7 +22,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 *CHINJU MWOL🧚‍♂️*
 
-*githublink       https://github.com/Ajnas-dz/ElsaMwol*
+*githublink       https://github.com/Ajnas-dz/ChinjuMwol*
 
 `})
 
